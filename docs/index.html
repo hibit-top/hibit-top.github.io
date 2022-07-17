@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hibit</title>
+    <title>比特万象 | hibit.top</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .main {
+            background-image: url('/bg.png');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            filter: hue-rotate(0deg);
+            animation-name: hue;
+            animation-duration: 60s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            box-sizing: border-box;
+            min-height: 100vh;
+            padding: 96px 0 24px 0;
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+            font-size: max(6vw, 64px);
+            color: white;
+        }
+        p {
+            width: 60vw;
+            color: white;
+            font-size: max(2vw, 24px);
+            text-align: center;
+            margin: 96px auto;
+        }
+        h3 {
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+        @keyframes hue {
+            0%   {filter: hue-rotate(0deg);}
+            50%  {filter: hue-rotate(180deg);}
+            100% {filter: hue-rotate(360deg);}
+        }
+    </style>
 </head>
 <body>
-    <h1>hibit.top</h1>
+    <div class="main">
+        <h1>For a better digital life</h1>
+        <p>We believe that the future is the world of bits, and digital assets will become an important part of everyone's wealth. We are committed to protecting everyone's digital assets, enabling everyone to obtain reasonable wealth through creativity and labor, and making the world more fair and just.</p>
+        <h3>&copy;&nbsp;比特万象&trade;&nbsp;Inc.&nbsp;&amp;&nbsp;hibit.top</h3>
+    </div>
 </body>
 </html>
