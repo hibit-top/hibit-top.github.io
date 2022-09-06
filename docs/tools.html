@@ -7,7 +7,8 @@
   <title>Document</title>
   <style>
     :root {
-      --font-color: #1d1d1f
+      --font-color: #1d1d1f;
+      --page-width: 640px;
     }
     body {
       /* background-color: #f5f5f7; */
@@ -17,7 +18,7 @@
       color: var(--font-color);
     }
     h2 {
-      max-width: 640px;
+      max-width: var(--page-width);
       font-size: 1em;
       margin: 64px auto 16px auto;
       border-top: 1px solid var(--font-color);
@@ -25,7 +26,12 @@
       padding: 8px 0;
     }
     p {
-      max-width: 640px;
+      max-width: var(--page-width);
+      margin: 16px auto;
+    }
+    iframe {
+      display: block;
+      max-width: var(--page-width);
       margin: 16px auto;
     }
     a {
