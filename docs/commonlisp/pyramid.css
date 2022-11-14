@@ -31,6 +31,7 @@ div.bodywrapper {
     /* margin: 0 0 0 230px; */
     width:  94%; /* 1037px; */
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 hr {
